@@ -1,7 +1,15 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
 #intro{
     background-image:url("/img/background1.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: revert;
     height: 700px;
     margin: 0;
     width: 100%;
@@ -9,9 +17,10 @@
 .headSideBar{
     border-bottom:1px solid white;
     height: 15%;
+    padding-top: 24px;
 }
 #intro ul{
-    /*margin-top: 50px;*/
+    margin: 0;
 }
 #intro li{
     display: inline;
@@ -19,16 +28,25 @@
     font-family: Arial;
     font-size: 24px;
     float: left;
-
+    padding-top: 20px;
+}
+#intro .l2{
+    padding-top: 30px;
+}
+#intro .l1:hover{
+    border-bottom: 4px solid blue;
+    padding-bottom: 53px;
 }
 .logo{
     float: right;
 }
+.logo1{
+    padding: 20px;
+}
 .introduce{
-    width: 100%;
+    width: 800px;
     height: 300px;
-    margin: 100px 30px 20px 200px;
-    border: 1px black solid;
+    margin: 90px 30px 20px 175px;
 }
 .introduce p{
     font-size: 60px;
@@ -37,4 +55,211 @@
     font-family: "Times New Roman";
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.a1 {
+    text-decoration: none;
+    color: white;
+}
+.a2 {
+    color: black;
+}
+.l2:hover{
+    border-bottom: 4px solid blue;
+    padding-bottom: 43px;
+}
+.logo1:hover{
+    border-bottom: 4px solid blue;
+    padding-bottom: 21px;
+}
+.nut1{
+    text-align: center;
+    padding: 15px 70px;
+    margin-bottom: 10px;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    background-color: #3b3bd0;
+    border: none;
+}
+.nut2{
+    text-align: center;
+    padding: 15px 42px;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    background-color: #2b2b41;
+    border: none;
+}
+.nut1:hover{
+    background-color: #23238f;
+}
+.nut2:hover{
+    background-color: #1e1e2f;
+}
+#content{
+    width: 100%;
+    height: 80%;
+}
+.introAboutNewVehicle{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    /*border: 1px solid black;*/
+}
+.firstLine{
+    font-size: 20px;
+    width: 40%;
+    margin: 10px 10px 10px 90px;
+    float: left;
+}
+.secondLine{
+    font-size: 20px;
+    width: 40%;
+    margin: 10px 90px 10px 10px;
+    float: right;
+}
+.choice1{
+    float: left;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    border: 1px solid black;
+    display: flex;
+}
+.choice1 li{
+    display: inline;
+    /*border: 1px blue solid;*/
+    margin-right: 40px;
+    font-weight: bold;
+}
+.choice1Con{
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 7%;
+    border-right: 1px solid gray;
+    /*border: 1px solid red;*/
+}
+.choice1 ul{
+    /*border: 1px solid green;*/
+    width: 400px;
+    height: 20px;
+    margin-top: 20px;
+}
+.choice1 a{
+    color: gray;
+}
+.choice1 a:hover{
+    color: black;
+}
+.choice1 li:hover{
+    border-bottom: 4px solid black;
+    padding-bottom: 20px;
+}
+.choice2{
+    width: 100%;
+    height: auto;
+    margin-top: 85px;
+    border: black 1px solid;
+}
+.choice2 h1{
+    padding-left: 90px;
+    margin-bottom: 15px;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+}
+.choice2 p{
+    font-size: 24px;
+    padding-left: 90px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#img00{
+    display: flex;
+    margin-top: 70px;
+}
+.img01 {
+    width: 285px;
+    height: 500px;
+    /*border: black solid 1px;*/
+    margin-right: 25px;
+    margin-left: 6%;
+    background-image: url("/img/01.jpg");
+    background-repeat: no-repeat;
+
+}
+.img02 {
+    width: 285px;
+    height: 500px;
+    /*border: black solid 1px;*/
+    margin-right: 25px;
+    background-image: url("/img/02.jpg");
+    background-repeat: no-repeat;
+}
+.img03 {
+    width: 285px;
+    height: 500px;
+    /*border: black solid 1px;*/
+    margin-right: 25px;
+    background-image: url("/img/03.jpg");
+    background-repeat: no-repeat;
+}
+.img04 {
+    width: 285px;
+    height: 500px;
+    /*border: black solid 1px;*/
+    margin-right: 25px;
+    background-image: url("/img/04.jpg");
+    background-repeat: no-repeat;
+}
+#img00 .num{
+    font-weight: lighter;
+    font-family: Tahoma;
+    font-size: 96px;
+    color: white;
+    padding: 300px 20px 0 30px;
+    margin-bottom: 0;
+}
+.img01:hover {
+    transform: scale(1.07);
+    transition: all 1s;
+}
+
+/*.child {*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*    -webkit-transition: all .5s;*/
+/*    -moz-transition: all .5s;*/
+/*    -o-transition: all .5s;*/
+/*    transition: all .5s;*/
+/*}*/
+/*.img01:hover .child,*/
+/*.img01:focus .child {*/
+/*    -ms-transform: scale(1.2);*/
+/*    -moz-transform: scale(1.2);*/
+/*    -webkit-transform: scale(1.2);*/
+/*    -o-transform: scale(1.2);*/
+/*    transform: scale(1.2);*/
+/*}*/
+
+.img02:hover{
+    transform: scale(1.07);
+    transition: all 1s;
+}
+.img03:hover{
+    transform: scale(1.07);
+    transition: all 1s;
+}
+.img04:hover{
+    transform: scale(1.07);
+    transition: all 1s;
+}
+#img00 .text{
+    color: white;
+    font-family: Tahoma;
+    font-size: 18px;
+    margin-top: 0;
+    padding-left: 20px;
 }
