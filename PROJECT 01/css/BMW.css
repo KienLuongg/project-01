@@ -15,8 +15,8 @@ a{
     width: 100%;
 }
 .headSideBar{
-    border-bottom:1px solid white;
-    height: 15%;
+    border-bottom:1px solid rgba(255, 255, 255, 0.33);
+    height: 100px;
     padding-top: 24px;
 }
 #intro ul{
@@ -35,7 +35,7 @@ a{
 }
 #intro .l1:hover{
     border-bottom: 4px solid blue;
-    padding-bottom: 53px;
+    padding-bottom: 48px;
 }
 .logo{
     float: right;
@@ -48,7 +48,7 @@ a{
     height: 300px;
     margin: 90px 30px 20px 175px;
 }
-.introduce p{
+.introduce_heading{
     font-size: 60px;
     text-transform: uppercase;
     font-variant: small-caps;
@@ -65,11 +65,11 @@ a{
 }
 .l2:hover{
     border-bottom: 4px solid blue;
-    padding-bottom: 43px;
+    padding-bottom: 38px;
 }
 .logo1:hover{
     border-bottom: 4px solid blue;
-    padding-bottom: 21px;
+    padding-bottom: 16px;
 }
 .nut1{
     text-align: center;
@@ -157,18 +157,18 @@ a{
 }
 .choice2{
     width: 100%;
-    height: auto;
+    height: 4800px;
     margin-top: 85px;
     border: black 1px solid;
 }
-.choice2 h1{
+.choice2_heading{
     padding-left: 90px;
     margin-bottom: 15px;
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 300;
 }
-.choice2 p{
+.choice2_textline{
     font-size: 24px;
     padding-left: 90px;
     margin-top: 10px;
@@ -217,7 +217,7 @@ a{
     font-family: Tahoma;
     font-size: 96px;
     color: white;
-    padding: 300px 20px 0 30px;
+    padding: 230px 20px 0 30px;
     margin-bottom: 0;
 }
 .img01:hover {
@@ -262,4 +262,284 @@ a{
     font-size: 18px;
     margin-top: 0;
     padding-left: 20px;
+}
+#BMW_sentences{
+    width: 100%;
+    height: 650px;
+    border: 1px solid black;
+}
+#BMW_talk_line{
+    color: #2b2b41;
+    width: 420px;
+    height: 312px;
+    font-family: Tahoma;
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 300;
+    line-height: 52px;
+    margin-top: 150px;
+    margin-left: 36%;
+}
+#BMW_author{
+    width: 420px;
+    height: 50px;
+    font-family: Tahoma;
+    margin-top: 70px;
+    margin-left: 36%;
+    color: #3d3d4f;
+}
+#overview_about_the_new_X3{
+    width: 100%;
+    height: fit-content;
+}
+#BMW_over_view_and_image{
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    border: 1px solid chocolate;
+    display: flex;
+}
+#left_side{
+    width: 485px;
+    height: 2000px;
+    margin: 0;
+
+}
+#left_side_BMW_over_view{
+    width: 485px;
+    height: 1800px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0;
+    padding-left: 90px;
+}
+#left_side_BMW_over_view .textline{
+    padding: 0;
+}
+.overview_head1{
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+    margin-top: 0;
+}
+.overview_head2{
+    font-size: 24px;
+}
+.overviewSentence{
+    font-size: 20px;
+    color: #414157;
+}
+.overview_image_left{
+    margin-top: 10px;
+}
+.image3{
+    float: right;
+}
+#right_side_BMW_over_view{
+    width: 798px;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    margin-top: 200px;
+}
+.right_side_image{
+    padding-top: 10px;
+}
+.image7{
+    margin-left: 10px;
+}
+#summary{
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+}
+.summary_text_lines{
+    padding-left: 90px;
+    font-family: Tahoma;
+    width: 80%;
+    height: fit-content;
+}
+.summary_heading{
+    font-weight: lighter;
+    font-size: 2rem;
+}
+.cover_more_info{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+    padding-left: 37.5px;
+    padding-right: 37.5px;
+}
+.more_info{
+    width: 590px;
+    height: 420px;
+    position: relative;
+    padding: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.56);
+}
+.name_car{
+    font-family: Tahoma;
+    margin-top: 9px;
+    margin-bottom: 8px;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+}
+.link_to_info{
+    font-family: Tahoma;
+    line-height: 20px;
+    margin: 0;
+    color: #262626;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.click_to_trans:hover{
+    color: rgba(238, 234, 234, 0);
+    transition: color 0.5s;
+}
+.link_to_info:hover{
+    color: rgba(59, 59, 194, 0.82);
+    transition: color 0.6s;
+}
+#bar_service_content{
+    width: 100%;
+    height: 155px;
+    /*border: 1px solid maroon;*/
+}
+#bar_service{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-left: 95px;
+}
+.tab_service{
+    width: 285px;
+    height: 140px;
+    /*border: #23238f 1px solid;*/
+    margin: 0 0 15px 15px;
+    background-color: #f2f2f2;
+}
+.tab_service:hover{
+    background-color: #c0b8b8;
+}
+.icon_tab{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 30px;
+    height: 30px;
+    margin: 45px auto auto auto;
+    color: #2b2b41;
+}
+.text_tab{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #3d3d4f;
+}
+.before_foot{
+    height: 480px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.cover_foot_bar{
+    width: 1200px;
+    height: 480px;
+    margin: 0 auto 0 auto;
+}
+.first_bar_in_foot{
+    height: 108px;
+    border-bottom: 1px solid gray;
+    padding: 60px 20px 45px 20px;
+}
+.left_in_bar_foot{
+    float: left;
+}
+.right_in_bar_foot{
+    float: right;
+}
+.language{
+    font-family: Tahoma;
+    color: #505065;
+}
+.Vietnamese{
+    padding-right: 20px;
+    border-right:1px solid gray;
+}
+.English{
+    padding-left: 20px;
+}
+.English:hover{
+    color: black;
+}
+.Vietnamese:hover{
+    color: black;
+}
+.more_contact{
+    font-family: Tahoma;
+    color: #3d3d4f;
+    margin-bottom: 20px;
+}
+.icon_contact{
+    color: #3d3d4f;
+    font-size: 2rem;
+    padding-right: 30px;
+}
+.second_line_in_foot{
+    height: 176px;
+    margin: 0 20px 0 20px;
+    padding: 45px 0 45px 0;
+}
+.cover_last_foot_bar{
+    display: flex;
+}
+.text_position{
+    width: auto;
+    height: 176px;
+    margin-right: 200px;
+    font-family: Tahoma;
+}
+.bar_foot_heading{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.last_tabs{
+    color: #3d3d4f;
+}
+.last_tabs:hover{
+    color: black;
+}
+#foot{
+    height: fit-content;
+}
+.end{
+    display: flex;
+}
+.inside_foot{
+    display: flex;
+    padding: 30px 20px;
+}
+.end_li{
+    display: inline;
+    padding-left: 40px;
+}
+.end_span{
+    padding-top: 15px;
+    margin-right: 20px;
+    font-family: Tahoma;
+}
+.cover_the_end{
+    margin-left: 100px;
+}
+.last_a{
+    color: #3b3bd0;
+    font-size: 1rem;
+    font-family: Tahoma;
+}
+.last_a:hover{
+    color: black;
 }
